@@ -1,0 +1,29 @@
+#train: C:/Users/britn/CMPE258_Wildlife_Animals/Wildlife_Animals_Split/images/train
+#val: C:/Users/britn/CMPE258_Wildlife_Animals/Wildlife_Animals_Split/images/val
+#test: C:/Users/britn/CMPE258_Wildlife_Animals/Wildlife_Animals_Split/images/test
+
+train: ./Wildlife_Animals_Downsized/images/train
+val: ./Wildlife_Animals_Downsized/images/val
+test: ./Wildlife_Animals_Downsized/images/test
+
+
+nc: 17
+
+names:
+  0: 'Horse'
+  1: 'bald_eagle'
+  2: 'black_bear'
+  3: 'bobcat'
+  4: 'cheetah'
+  5: 'cougar'
+  6: 'deer'
+  7: 'elk'
+  8: 'gray_fox'
+  9: 'hyena'
+  10: 'lion'
+  11: 'raccoon'
+  12: 'red_fox'
+  13: 'rhino'
+  14: 'tiger'
+  15: 'wolf'
+  16: 'zebra'
