@@ -1,29 +1,26 @@
-#train: C:/Users/britn/CMPE258_Wildlife_Animals/Wildlife_Animals_Split/images/train
-#val: C:/Users/britn/CMPE258_Wildlife_Animals/Wildlife_Animals_Split/images/val
-#test: C:/Users/britn/CMPE258_Wildlife_Animals/Wildlife_Animals_Split/images/test
-
-train: ./Wildlife_Animals_Downsized/images/train
-val: ./Wildlife_Animals_Downsized/images/val
-test: ./Wildlife_Animals_Downsized/images/test
-
-
-nc: 17
+test: C:/Users/britn/CMPE258_Wildlife_Animals/Wildlife_Animals_Downsized/images/test
+train: C:/Users/britn/CMPE258_Wildlife_Animals/Wildlife_Animals_Downsized/images/train
+val: C:/Users/britn/CMPE258_Wildlife_Animals/Wildlife_Animals_Downsized/images/val
+hyp: C:/Users/britn/CMPE258_Wildlife_Animals/hyp.yaml
 
 names:
-  0: 'Horse'
-  1: 'bald_eagle'
-  2: 'black_bear'
-  3: 'bobcat'
-  4: 'cheetah'
-  5: 'cougar'
-  6: 'deer'
-  7: 'elk'
-  8: 'gray_fox'
-  9: 'hyena'
-  10: 'lion'
-  11: 'raccoon'
-  12: 'red_fox'
-  13: 'rhino'
-  14: 'tiger'
-  15: 'wolf'
-  16: 'zebra'
+  0: Horse
+  1: bald_eagle
+  2: black_bear
+  3: bobcat
+  4: cheetah
+  5: cougar
+  6: deer
+  7: elk
+  8: gray_fox
+  9: hyena
+  10: lion
+  11: raccoon
+  12: red_fox
+  13: rhino
+  14: tiger
+  15: wolf
+  16: zebra
+nc: 17
+
+weights: [0.8631, 0.7566, 0.8768, 1.905, 0.8631, 0.9523, 1.023, 0.7891, 0.7566, 2.209, 1.905, 0.8498, 0.8244, 1.227, 1.782, 0.6819, 1.151]
