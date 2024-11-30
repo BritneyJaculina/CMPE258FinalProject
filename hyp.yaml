@@ -1,0 +1,5 @@
+'flipud': 0.5,  # Flip images upside down
+'fliplr': 0.5,  # Flip images left-right
+'rotate': 0.3,   # Rotate images to improve robustness
+'scale': 0.5,    # Random scale adjustment
+'translate': 0.3,  # Random translation
