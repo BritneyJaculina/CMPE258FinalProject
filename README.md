@@ -2,7 +2,7 @@
 Android Studio Project app can be downloaded at the following link: https://drive.google.com/file/d/185E39ogpjtF-QCEN_I4ugOsQfOvCJHOh/view?usp=sharing
 
 Requirements:
-- Python 3.10 or any Python version
+- Python 3.10
 - IDE, ideally Visual Studio which was used for this project
 - YOLO dependencies: pip install ultralytics on command line
 
